@@ -1,0 +1,41 @@
+/*
+  Icon Font: FontMoreAwesome
+*/
+
+@font-face {
+  font-family: "FontMoreAwesome";
+  src: url("../fonts/FontMoreAwesome_58f01018fcfdedaa7ea300e412335e8f.eot");
+  src: url("../fonts/FontMoreAwesome_58f01018fcfdedaa7ea300e412335e8f.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/FontMoreAwesome_58f01018fcfdedaa7ea300e412335e8f.woff") format("woff"),
+       url("../fonts/FontMoreAwesome_58f01018fcfdedaa7ea300e412335e8f.ttf") format("truetype"),
+       url("../fonts/FontMoreAwesome_58f01018fcfdedaa7ea300e412335e8f.svg#FontMoreAwesome") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "FontMoreAwesome";
+    src: url("../fonts/FontMoreAwesome_58f01018fcfdedaa7ea300e412335e8f.svg#FontMoreAwesome") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.fma-timeline:before {
+  display: inline-block;
+  font-family: "FontMoreAwesome";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.fma-timeline:before { content: "\f101"; }

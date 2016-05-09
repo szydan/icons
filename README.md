@@ -1,4 +1,4 @@
-Custome icons
+Custom icons
 =============
 
 Made thanks to awesome project [fontcustom](https://github.com/FontCustom/fontcustom) 
